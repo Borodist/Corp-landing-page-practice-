@@ -1,0 +1,68 @@
+
+body {
+    font-family: Exo;
+    /* box-sizing: border-box; */
+}
+
+.section-header-outer {
+    background: #9dd76a url(img/Section-1-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 1310px;
+    height: 740px;
+    margin: auto;
+    background-position: 0px 0px;
+}
+
+.section-header-inner {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    align-items: center;
+    
+    /* justify-content: space-around;    */
+}
+
+.header-message {
+    text-align: center;
+    font-size: 55px;
+    line-height: 70px;
+    /* padding-top: 200px; */
+    font-weight: 100;
+    color: #282828;
+    letter-spacing: 0.02em;
+    padding-top: 160px;
+}
+
+
+.signature {
+    
+    font-size: 14px;
+    line-height: 75px;
+    /* padding-bottom: 260px; */
+    /* top: 18px; */
+    color: #767678;
+    
+}
+
+.button {
+    
+    background-color: #ff6d6d;
+    text-transform: uppercase;
+    width: 176px;
+    height: 50px;
+    color: white;
+    letter-spacing: 0.22em;
+    font-size: 14px;
+    /* padding-top: 100px; */
+}
+
+.form_btn {
+    /* padding-bottom: 50px; */
+}
+
+.icon-video {
+    /* position: relative; */
+    /* top: 40px; */
+   padding-bottom: 40px;
+    
+}
