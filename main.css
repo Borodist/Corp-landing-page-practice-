@@ -81,6 +81,7 @@ body {
 
 .header2-section2 {
     font-size: 40px;
+    letter-spacing: 0.07em;
 }
 
 .description-section2 {
@@ -198,11 +199,11 @@ body {
 }
 
 .wrapper-blocks-section5 {
-    margin-top: 107px;
+    width: 1310px;
+    margin: 107px auto 0 auto;
     display: flex;
     flex-direction: row;
-    /* align-items: space-between; */
-    /* justify-content: space-around; */
+    justify-content: space-around;
     /* border: solid 1px white; */
 }
 
@@ -214,7 +215,6 @@ body {
 }
 
 .block1-section5 {
-    /* width: 350px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,22 +222,33 @@ body {
 
 }
 
-.clients-logo {
-    /* border: #f6f5f3 solid 1px; */
+ .description1-section5 {
+    color: #a6a7aa;
+    display: block;
+    width: 300px;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
 }
 
-.name-founder, .position, .description1-section5 {
+.name-founder {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.07em;
     color: white;
+    margin: 20px auto 5px auto;
 }
 
 .position {
     color: #ff6d6d;
+    font-size: 16px;
+    margin: 0 auto 30px auto;
 }
 
 /* section6 */
 .wrapper-section6 {
-    width: 1310px;
-    height: 756px;
+    max-width: 1310px;
+    max-height: 756px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -248,7 +259,19 @@ body {
 .title_section6 {
     width: 650px;
     text-align: center;
-    
+    color: #282828;
+    letter-spacing: 0.07em;
+    line-height: 26px;
+}
+
+
+
+.h3section6 {
+    margin: 100px auto 0 auto
+}
+
+.h4section6 {
+    margin: 10px auto 40px auto;
 }
 
 /* section7 */
@@ -259,5 +282,51 @@ body {
     height: 468px;
     margin: 0 auto;
     background: url(/img/try-bow-bg.png) no-repeat;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: center; */
+    color: white;
+}
+
+.h3section7 {
+    margin: 100px auto 0 auto;
+    
+}
+
+.h4section7 {
+    /* color: white; */
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.input {
+    /* background-color: rgba(0, 0, 0, .1); */
+    box-sizing: border-box;
+    background-color: #474d78;
+    border: white solid 1px;
+    width: 260px;
+    height: 48px;
+    
+}
+
+.input-form {
+    width: 1310;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    border: 1px solid gold;
+}
+
+::placeholder {
+    color: white;
+}
+
+.btn {
+    width: 260px;
+    height: 48px;
+    background-color: #ff6d6d;
+    border: none;
+    color: white;
+    text-transform: uppercase;
 }
